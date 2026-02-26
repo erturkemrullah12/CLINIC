@@ -17,7 +17,7 @@ export default function TreatmentDetail({ treatment, onBack }) {
         .serif { font-family:'DM Serif Display',serif; }
         .tag {
           display:inline-flex; align-items:center; gap:6px;
-          background:#f4d125; color:#1c190d;
+          background:#c9a227; color:#1c190d;
           padding:4px 14px; border-radius:99px;
           font-size:11px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
         }
@@ -35,13 +35,13 @@ export default function TreatmentDetail({ treatment, onBack }) {
         }
         .benefit-item:last-child { border-bottom:none; }
         .book-btn {
-          width:100%; background:#f4d125; color:#1c190d;
+          width:100%; background:#c9a227; color:#1c190d;
           font-weight:800; padding:16px 40px; border-radius:14px;
           border:none; cursor:pointer; font-size:15px;
           transition:transform .15s, box-shadow .15s;
           margin-top:24px;
         }
-        .book-btn:hover { transform:scale(1.04); box-shadow:0 12px 28px -8px rgba(244,209,37,.4); }
+        .book-btn:hover { transform:scale(1.04); box-shadow:0 12px 28px -8px rgba(201,162,39,.4); }
       `}</style>
 
       <div style={{ maxWidth:960, margin:"0 auto", padding:"40px 24px" }}>
@@ -116,7 +116,7 @@ export default function TreatmentDetail({ treatment, onBack }) {
             <h2 style={{ fontSize:"1.05rem", fontWeight:700, color:"#1c190d", marginBottom:4 }}>Key Benefits</h2>
             {treatment.benefits.map((b) => (
               <div key={b} className="benefit-item">
-                <div style={{ width:22, height:22, borderRadius:"50%", background:"#f4d125", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
+                <div style={{ width:22, height:22, borderRadius:"50%", background:"#c9a227", display:"flex", alignItems:"center", justifyContent:"center", flexShrink:0 }}>
                   <svg width="11" height="11" viewBox="0 0 12 12" fill="none">
                     <path d="M2 6l3 3 5-5" stroke="#1c190d" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>

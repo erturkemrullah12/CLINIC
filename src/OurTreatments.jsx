@@ -27,7 +27,7 @@ export default function OurTreatments({ treatments, onSelect }) {
           padding:10px 22px; border-radius:99px; font-size:13px; font-weight:700;
           border:none; cursor:pointer; transition:background .2s, color .2s;
         }
-        .filter-btn.active  { background:#f4d125; color:#1c190d; }
+        .filter-btn.active  { background:#c9a227; color:#1c190d; }
         .filter-btn.inactive { background:transparent; color:#9a9180; }
         .filter-btn.inactive:hover { background:#f0ede5; color:#1c190d; }
 
@@ -39,7 +39,7 @@ export default function OurTreatments({ treatments, onSelect }) {
         .treatment-card:hover {
           transform:translateY(-6px);
           box-shadow:0 24px 48px -16px rgba(0,0,0,.12);
-          border-color:rgba(244,209,37,.35);
+          border-color:rgba(201,162,39,.35);
         }
         .card-img {
           width:100%; height:220px;
@@ -51,19 +51,19 @@ export default function OurTreatments({ treatments, onSelect }) {
         .treatment-card:hover .arrow-icon { transform:translateX(4px); }
 
         .cta-btn {
-          background:#f4d125; color:#1c190d; font-weight:800;
+          background:#c9a227; color:#1c190d; font-weight:800;
           padding:14px 40px; border-radius:14px; border:none;
           cursor:pointer; font-size:15px;
           transition:transform .15s, box-shadow .15s;
         }
-        .cta-btn:hover { transform:scale(1.04); box-shadow:0 12px 28px -8px rgba(244,209,37,.4); }
+        .cta-btn:hover { transform:scale(1.04); box-shadow:0 12px 28px -8px rgba(201,162,39,.4); }
       `}</style>
 
       <div style={{ maxWidth: 1100, margin: "0 auto", padding: "64px 24px" }}>
 
         {/* ── Section Header ── */}
         <div style={{ textAlign: "center", marginBottom: 56 }}>
-          <span style={{ fontSize:11, fontWeight:700, letterSpacing:".12em", color:"#c8a800", textTransform:"uppercase" }}>
+          <span style={{ fontSize:11, fontWeight:700, letterSpacing:".12em", color:"#8b6914", textTransform:"uppercase" }}>
             Bespoke Excellence
           </span>
           <h2 className="serif" style={{ fontSize:"clamp(2.4rem,5vw,3.5rem)", fontWeight:400, color:"#1c190d", margin:"10px 0 14px", lineHeight:1.1 }}>
@@ -105,7 +105,7 @@ export default function OurTreatments({ treatments, onSelect }) {
 
               {/* Card body */}
               <div style={{ padding:"22px 24px 24px" }}>
-                <span style={{ fontSize:10, fontWeight:700, letterSpacing:".1em", color:"#c8a800", textTransform:"uppercase" }}>
+                <span style={{ fontSize:10, fontWeight:700, letterSpacing:".1em", color:"#8b6914", textTransform:"uppercase" }}>
                   {t.category}
                 </span>
                 <h3 style={{ fontSize:"1.15rem", fontWeight:700, color:"#1c190d", margin:"6px 0 10px" }}>
@@ -114,7 +114,7 @@ export default function OurTreatments({ treatments, onSelect }) {
                 <p style={{ fontSize:13.5, color:"#7a7060", lineHeight:1.7, marginBottom:18 }}>
                   {t.summary}
                 </p>
-                <div style={{ display:"flex", alignItems:"center", gap:6, color:"#c8a800", fontWeight:700, fontSize:13 }}>
+                <div style={{ display:"flex", alignItems:"center", gap:6, color:"#8b6914", fontWeight:700, fontSize:13 }}>
                   Learn More
                   <svg className="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
@@ -126,7 +126,7 @@ export default function OurTreatments({ treatments, onSelect }) {
         </div>
 
         {/* ── Bottom CTA ── */}
-        <div style={{ marginTop:72, background:"linear-gradient(135deg,#fffde8 0%,#fff8c5 100%)", border:"1.5px solid rgba(244,209,37,.4)", borderRadius:24, padding:"52px 40px", textAlign:"center" }}>
+        <div style={{ marginTop:72, background:"linear-gradient(135deg,#faf6e8 0%,#f5ecd0 100%)", border:"1.5px solid rgba(201,162,39,.4)", borderRadius:24, padding:"52px 40px", textAlign:"center" }}>
           <h4 style={{ fontSize:"1.6rem", fontWeight:700, color:"#1c190d", marginBottom:10 }}>
             Not sure where to start?
           </h4>

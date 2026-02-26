@@ -86,7 +86,6 @@ function Header({ onNavigateToTreatments, onNavigateToHome, onNavigateToHakkimiz
           >
             Book Now
           </button>
-          <div className="hidden sm:block bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10 border border-[#e8e4ce]" style={{backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuD-CCrt_mKGSnUrkDb-ealFzHkxmBCyBuTFrOFjGubT1hcFtZQD5OQOVGmvO1JhrUbFZ2NgFs3YIMgD6JVCvbNS6Xc2JCGvRi9yI2a-6iD75TWwWqQ4DPPM3f5SAU4XFAOib66oNxdcBywai4GWWvGEPynwpmmmxxfwbkxt4jF5zHgQM0RYKUMs3O8GOWqywAIIcpXTzOg05JC3OKdzpHze3rwP4dkcFWKin4jNF_ebiSXfw-l_7wnf8h7Zmsk1Oz4_MMkEvM6jCW4_")'}}></div>
         </div>
       </div>
     </header>

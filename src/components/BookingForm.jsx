@@ -137,10 +137,10 @@ export default function BookingForm() {
         textarea: { width: "100%", padding: "14px 18px", borderRadius: 14, border: "1.5px solid #e8e4ce", background: "#FAFAF7", fontSize: 14, fontFamily: "inherit", outline: "none", resize: "vertical", minHeight: 88, boxSizing: "border-box" },
         errTxt: { fontSize: 11, color: "#e05252", marginTop: 4, fontWeight: 600 },
         grid2: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 20 },
-        btn: { width: "100%", height: 56, background: "#f4d125", color: "#1c190d", fontWeight: 800, fontSize: 15, borderRadius: 16, border: "none", cursor: "pointer", letterSpacing: ".06em", textTransform: "uppercase", transition: "transform .15s, box-shadow .15s" },
+        btn: { width: "100%", height: 56, background: "#c9a227", color: "#1c190d", fontWeight: 800, fontSize: 15, borderRadius: 16, border: "none", cursor: "pointer", letterSpacing: ".06em", textTransform: "uppercase", transition: "transform .15s, box-shadow .15s" },
     };
 
-    const focus = { borderColor: "#f4d125", boxShadow: "0 0 0 4px rgba(244,209,37,.15)" };
+    const focus = { borderColor: "#c9a227", boxShadow: "0 0 0 4px rgba(201,162,39,.15)" };
 
     function applyFocus(e) { Object.assign(e.target.style, focus); }
     function removeFocus(e, hasErr) {
@@ -176,7 +176,7 @@ export default function BookingForm() {
         return (
             <div style={S.page}>
                 <div style={{ ...S.card, textAlign: "center", padding: "64px 40px" }}>
-                    <div style={{ width: 72, height: 72, background: "#f4d125", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 24px" }}>
+                    <div style={{ width: 72, height: 72, background: "#c9a227", borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", margin: "0 auto 24px" }}>
                         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1c190d" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                             <path d="M20 6L9 17l-5-5" />
                         </svg>
@@ -211,7 +211,7 @@ export default function BookingForm() {
             <div style={S.card}>
                 {/* Başlık */}
                 <div style={{ marginBottom: 36 }}>
-                    <span style={{ fontSize: 11, fontWeight: 700, color: "#c8a800", letterSpacing: ".12em", textTransform: "uppercase" }}>
+                    <span style={{ fontSize: 11, fontWeight: 700, color: "#8b6914", letterSpacing: ".12em", textTransform: "uppercase" }}>
                         Online Randevu
                     </span>
                     <h1 style={{ fontSize: "clamp(1.6rem,4vw,2.2rem)", fontWeight: 800, color: "#1c190d", lineHeight: 1.15, margin: "8px 0 10px" }}>
@@ -254,7 +254,7 @@ export default function BookingForm() {
                             <label style={S.label} htmlFor="time">
                                 Tercih Edilen Saat
                                 {loadingSlots && (
-                                    <span style={{ fontSize: 10, color: "#c8a800", marginLeft: 8, fontWeight: 600 }}>
+                                    <span style={{ fontSize: 10, color: "#8b6914", marginLeft: 8, fontWeight: 600 }}>
                                         Yükleniyor…
                                     </span>
                                 )}
@@ -274,8 +274,8 @@ export default function BookingForm() {
                                                 onClick={() => { setForm(f => ({ ...f, time: slot })); setErrors(e => ({ ...e, time: undefined })); }}
                                                 style={{
                                                     padding: "8px 16px", borderRadius: 10, border: "1.5px solid",
-                                                    borderColor: form.time === slot ? "#f4d125" : "#e8e4ce",
-                                                    background: form.time === slot ? "#f4d125" : "white",
+                                                    borderColor: form.time === slot ? "#c9a227" : "#e8e4ce",
+                                                    background: form.time === slot ? "#c9a227" : "white",
                                                     color: form.time === slot ? "#1c190d" : "#5a5446",
                                                     fontWeight: form.time === slot ? 700 : 500,
                                                     fontSize: 13, cursor: "pointer", transition: "all .15s",
@@ -323,7 +323,7 @@ export default function BookingForm() {
                             type="submit"
                             disabled={status === "sending"}
                             style={{ ...S.btn, opacity: status === "sending" ? .7 : 1, cursor: status === "sending" ? "wait" : "pointer", marginTop: 4 }}
-                            onMouseEnter={e => { if (status !== "sending") { e.target.style.transform = "scale(1.02)"; e.target.style.boxShadow = "0 12px 28px -8px rgba(244,209,37,.4)"; } }}
+                            onMouseEnter={e => { if (status !== "sending") { e.target.style.transform = "scale(1.02)"; e.target.style.boxShadow = "0 12px 28px -8px rgba(201,162,39,.4)"; } }}
                             onMouseLeave={e => { e.target.style.transform = "scale(1)"; e.target.style.boxShadow = "none"; }}
                         >
                             {status === "sending" ? "Gönderiliyor…" : "Randevu Talep Et →"}
