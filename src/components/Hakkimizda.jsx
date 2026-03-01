@@ -34,14 +34,14 @@ export default function Hakkimizda({ onBookConsultation, onViewTreatments }) {
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 w-full">
           <div className="max-w-4xl space-y-12">
             <div className="inline-flex items-center gap-4 text-primary font-bold tracking-[0.5em] uppercase text-[0.65rem]">
-              <span className="w-12 h-px bg-primary" /> Our Legacy
+              <span className="w-12 h-px bg-primary" /> Mirasımız
             </div>
             <h1 className="text-6xl sm:text-8xl md:text-[11rem] font-bold leading-[0.85] tracking-tighter" style={{ textShadow: "0 4px 12px rgba(0,0,0,0.05)" }}>
-              The Aser <br />
+              Aser <br />
               <span className="italic font-light text-primary">Ethos.</span>
             </h1>
             <p className="text-xl md:text-3xl text-slate-600 dark:text-slate-400 font-light leading-relaxed max-w-2xl italic">
-              &ldquo;A sanctuary where medical science meets the artisan&apos;s touch, dedicated to the preservation of your unique visual identity.&rdquo;
+              &ldquo;Tıbbi bilimin zanaatkâr dokunuşuyla buluştuğu bir sığınak; benzersiz görsel kimliğinizin korunmasına adanmış.&rdquo;
             </p>
           </div>
         </div>
@@ -57,19 +57,19 @@ export default function Hakkimizda({ onBookConsultation, onViewTreatments }) {
             <div className="lg:w-1/2 space-y-12 lg:space-y-16">
               <div className="space-y-6">
                 <span className="text-primary font-bold uppercase tracking-[0.5em] text-xs">
-                  Our Philosophy
+                  Felsefemiz
                 </span>
                 <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-none">
-                  Natural <br />
-                  <span className="italic font-light text-primary">Enhancement</span>
+                  Doğal <br />
+                  <span className="italic font-light text-primary">Geliştirme</span>
                 </h2>
               </div>
               <div className="space-y-8 text-lg md:text-xl text-slate-700 dark:text-slate-300 leading-relaxed font-light">
                 <p>
-                  At Aser Clinic, we believe the highest form of aesthetic mastery is that which remains undetectable. Our philosophy is rooted in &apos;Scientific Artistry&apos;—a commitment to enhancing your features through a &apos;less is more&apos; approach.
+                  Aser Clinic olarak en yüksek estetik ustalığın, fark edilmez kalan olduğuna inanıyoruz. Felsefemiz &apos;Bilimsel Sanat&apos;ta kökleniyor—&apos;az çoktur&apos; anlayışıyla özelliklerinizi güçlendirme taahhüdü.
                 </p>
                 <p>
-                  We leverage the Golden Ratio and advanced anatomical mapping to ensure every refinement harmonizes with your natural structure. It is not about changing who you are, but revealing your most refreshed and vibrant self.
+                  Altın Oran ve ileri anatomik haritalamayla her iyileştirmenin doğal yapınızla uyum içinde olmasını sağlıyoruz. Sizi değiştirmek değil; en dinlenmiş ve canlı halinizi ortaya çıkarmak amaç.
                 </p>
               </div>
             </div>
@@ -94,28 +94,28 @@ export default function Hakkimizda({ onBookConsultation, onViewTreatments }) {
             <div className="lg:col-span-5 flex flex-col justify-center space-y-12 lg:space-y-16">
               <div className="space-y-6">
                 <span className="text-primary font-bold uppercase tracking-[0.5em] text-xs">
-                  The Standard
+                  Standart
                 </span>
                 <h2 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-none">
                   Premium <br />
-                  <span className="italic font-light text-primary">Experience</span>
+                  <span className="italic font-light text-primary">Deneyim</span>
                 </h2>
               </div>
               <div className="space-y-10 text-lg md:text-xl text-slate-700 dark:text-slate-300 leading-relaxed font-light">
                 <div className="space-y-4">
                   <h3 className="text-xl md:text-2xl font-bold tracking-tight text-slate-900 dark:text-white uppercase text-sm tracking-[0.2em]">
-                    Absolute Exclusivity
+                    Tam Özellik
                   </h3>
                   <p>
-                    We operate on a strictly private basis, ensuring that every appointment is held in a sequestered environment. Our scheduling is designed to provide complete anonymity and undivided attention, allowing for a journey that is as private as it is transformative.
+                    Tamamen özel bir temelde çalışıyoruz; her randevu ayrı bir ortamda gerçekleşir. Programlamamız tam gizlilik ve bölünmemiş ilgi sunacak şekilde tasarlanmıştır.
                   </p>
                 </div>
                 <div className="space-y-4">
                   <h3 className="text-xl md:text-2xl font-bold tracking-tight text-slate-900 dark:text-white uppercase text-sm tracking-[0.2em]">
-                    Bespoke Private Care
+                    Kişiye Özel Bakım
                   </h3>
                   <p>
-                    From the tactile warmth of Italian marble to the curated soft lighting, every detail of our clinic is orchestrated to soothe the senses. Your care is overseen by a dedicated concierge, ensuring that your experience transcends traditional clinical boundaries into the realm of pure luxury.
+                    İtalyan mermerinin dokunsal sıcaklığından özenle seçilmiş ışığa kadar kliniğimizin her detayı duyuları yatıştıracak şekilde düzenlenir. Bakımınız özel bir konsey tarafından takip edilir; deneyiminiz geleneksel klinik sınırlarını aşarak saf lüks alanına taşınır.
                   </p>
                 </div>
               </div>
@@ -150,11 +150,11 @@ export default function Hakkimizda({ onBookConsultation, onViewTreatments }) {
           <div className="absolute top-0 right-0 w-[30rem] md:w-[40rem] h-[30rem] md:h-[40rem] bg-primary/10 rounded-full -mr-40 md:-mr-60 -mt-40 md:-mt-60 blur-[100px]" />
           <div className="relative z-10 space-y-10 md:space-y-16">
             <h2 className="text-4xl md:text-6xl lg:text-9xl font-bold leading-none tracking-tighter">
-              Your Journey <br />
-              <span className="italic font-light text-primary">Starts Here</span>
+              Yolculuğunuz <br />
+              <span className="italic font-light text-primary">Burada Başlar</span>
             </h2>
             <p className="text-lg md:text-2xl font-light opacity-80 max-w-2xl mx-auto">
-              Experience the pinnacle of medical aesthetic excellence. Reserve your private consultation at our Mayfair sanctuary.
+              Tıbbi estetik mükemmelliğin zirvesini deneyimleyin. Mayfair&apos;deki sığınağımızda özel konsültasyonunuzu ayırtın.
             </p>
             <div className="flex flex-col md:flex-row gap-6 md:gap-8 justify-center pt-6 md:pt-10">
               <button
@@ -162,14 +162,14 @@ export default function Hakkimizda({ onBookConsultation, onViewTreatments }) {
                 onClick={onBookConsultation}
                 className="bg-primary text-slate-950 px-10 md:px-16 py-4 md:py-6 rounded-full text-base md:text-lg font-bold hover:brightness-110 transition-all uppercase tracking-[0.25em]"
               >
-                Book Consultation
+                Randevu Al
               </button>
               <button
                 type="button"
                 onClick={onViewTreatments}
                 className="bg-transparent border border-white/20 text-white px-10 md:px-16 py-4 md:py-6 rounded-full text-base md:text-lg font-bold hover:bg-white/10 transition-all uppercase tracking-[0.25em]"
               >
-                View Treatments
+                Hizmetleri Görüntüle
               </button>
             </div>
           </div>

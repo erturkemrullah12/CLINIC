@@ -13,7 +13,7 @@ function Footer() {
               <h2 className="text-[#1c190d] text-xl font-extrabold tracking-tight uppercase">ASER CLINIC</h2>
             </div>
             <p className="text-[#5c5847] text-sm leading-relaxed">
-              Experience medical excellence and artistic precision at London's leading aesthetic destination.
+              Londra'nın önde gelen estetik merkezinde tıbbi mükemmellik ve sanatsal hassasiyet.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,17 +39,17 @@ function Footer() {
             </div>
           </div>
           <div className="flex flex-col gap-6">
-            <h3 className="text-[#1c190d] text-sm font-black uppercase tracking-widest">Site Map</h3>
+            <h3 className="text-[#1c190d] text-sm font-black uppercase tracking-widest">Site Haritası</h3>
             <nav className="flex flex-col gap-4">
-              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">Treatments</a>
-              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">Before & After Gallery</a>
-              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">Our Philosophy</a>
-              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">Pricing Guide</a>
-              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">FAQs</a>
+              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">Hizmetler</a>
+              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">Önce & Sonra Galerisi</a>
+              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">Felsefemiz</a>
+              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">Fiyat Rehberi</a>
+              <a className="text-[#5c5847] text-sm hover:text-gold-accent transition-colors" href="#">SSS</a>
             </nav>
           </div>
           <div className="flex flex-col gap-6">
-            <h3 className="text-[#1c190d] text-sm font-black uppercase tracking-widest">Contact Details</h3>
+            <h3 className="text-[#1c190d] text-sm font-black uppercase tracking-widest">İletişim</h3>
             <div className="flex flex-col gap-4">
               <div className="flex items-start gap-3">
                 <span className="material-symbols-outlined text-gold-accent text-xl">location_on</span>
@@ -66,14 +66,14 @@ function Footer() {
                 <p className="text-[#5c5847] text-sm">hello@aserclinic.com</p>
               </div>
               <div className="mt-2 flex flex-col gap-2">
-                <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#9c8e49]">Operating Hours</p>
-                <p className="text-[#5c5847] text-xs">Mon - Fri: 09:00 - 20:00</p>
-                <p className="text-[#5c5847] text-xs">Sat: 10:00 - 18:00</p>
+                <p className="text-[10px] font-black uppercase tracking-[0.2em] text-[#9c8e49]">Çalışma Saatleri</p>
+                <p className="text-[#5c5847] text-xs">Pzt - Cum: 09:00 - 20:00</p>
+                <p className="text-[#5c5847] text-xs">Cmt: 10:00 - 18:00</p>
               </div>
             </div>
           </div>
           <div className="flex flex-col gap-6">
-            <h3 className="text-[#1c190d] text-sm font-black uppercase tracking-widest">Find Us</h3>
+            <h3 className="text-[#1c190d] text-sm font-black uppercase tracking-widest">Bizi Bulun</h3>
             <div className="rounded-xl overflow-hidden border border-[#e8e4ce] h-48 bg-background-light">
               <div className="w-full h-full relative group">
                 <img
@@ -82,7 +82,7 @@ function Footer() {
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr68o2Y04a4EeOMJNGnu1BLng_Vx-5lWQD8Ukd7RB73X4FRvvqRbpA8cnQwVpPn5WYE4RTHH4_MUYny4mD_RTKCagRjatz63VaVPVPqlbjmyulwki10FgLpapQQyy4l8GURC8_aJ6X1u_Mli9pDQKFN3fRamU4JKrOIs7KPGvogzXtjPXhRaEjLlVCLQj-5b_VcutL2O0XDk_O2v1b8W0UQMjWBlG1CZ7t-Ygk4eb_iU46glubX_uV71g3Bt7Ay90wHckWDPjrrRuY"
                 />
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="bg-white/90 px-4 py-2 rounded-full text-xs font-bold border border-[#e8e4ce] shadow-sm">View on Google Maps</span>
+                  <span className="bg-white/90 px-4 py-2 rounded-full text-xs font-bold border border-[#e8e4ce] shadow-sm">Google Haritalar'da Görüntüle</span>
                 </div>
               </div>
             </div>
@@ -90,11 +90,11 @@ function Footer() {
         </div>
         <div className="pt-12 border-t border-[#f4f1e7] flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-[#9c8e49] text-[10px] font-bold uppercase tracking-[0.2em]">
-            © 2026 Aser Medical Aesthetics Group. All rights reserved.
+            © 2026 Aser Medical Aesthetics Group. Tüm hakları saklıdır.
           </p>
           <div className="flex gap-8">
-            <a className="text-[#9c8e49] text-[10px] font-bold uppercase tracking-[0.2em] hover:text-gold-accent" href="#">Privacy Policy</a>
-            <a className="text-[#9c8e49] text-[10px] font-bold uppercase tracking-[0.2em] hover:text-gold-accent" href="#">Terms of Service</a>
+            <a className="text-[#9c8e49] text-[10px] font-bold uppercase tracking-[0.2em] hover:text-gold-accent" href="#">Gizlilik Politikası</a>
+            <a className="text-[#9c8e49] text-[10px] font-bold uppercase tracking-[0.2em] hover:text-gold-accent" href="#">Kullanım Koşulları</a>
           </div>
         </div>
       </div>

@@ -14,12 +14,12 @@ const API_URL = "http://localhost:8000";
 
 const TREATMENTS = [
     { value: "botox", label: "Anti-Wrinkle (Botox)" },
-    { value: "fillers", label: "Dermal Fillers" },
-    { value: "prp", label: "PRP Therapy" },
-    { value: "rejuvenation", label: "Skin Rejuvenation" },
-    { value: "laser", label: "Laser Technology" },
-    { value: "skincare", label: "Medical Skincare" },
-    { value: "consultation", label: "Initial Consultation" },
+    { value: "fillers", label: "Dermal Dolgular" },
+    { value: "prp", label: "PRP Terapisi" },
+    { value: "rejuvenation", label: "Cilt Yenileme" },
+    { value: "laser", label: "Lazer Teknolojisi" },
+    { value: "skincare", label: "Medikal Cilt Bakımı" },
+    { value: "consultation", label: "İlk Konsültasyon" },
 ];
 
 // Sabit slot listesi — tarih seçilince API'dan güncellenir

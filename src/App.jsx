@@ -65,6 +65,7 @@ export default function App() {
       <TreatmentDetail
         treatment={selectedTreatment}
         onBack={handleBackToTreatments}
+        onBookConsultation={handleShowBooking}
       />
     );
   }
@@ -83,6 +84,7 @@ export default function App() {
         <OurTreatments
           treatments={treatments}
           onSelect={handleSelectTreatment}
+          onBookConsultation={handleShowBooking}
         />
         <Footer />
       </div>
@@ -140,12 +142,12 @@ export default function App() {
         onNavigateToSection={handleNavigateToSection}
       />
       <main className="flex flex-col">
-        <Hero onExploreTreatments={handleShowTreatments} />
+        <Hero onExploreTreatments={handleShowTreatments} onBookConsultation={handleShowBooking} />
         <WhyUs />
         <Treatments onLearnMore={handleShowTreatments} />
         <Results />
         <Testimonials />
-        <CTA />
+        <CTA onBookConsultation={handleShowBooking} />
       </main>
       <Footer />
     </div>

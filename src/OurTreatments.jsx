@@ -5,13 +5,13 @@
 
 import { useState } from "react";
 
-const CATEGORIES = ["All Services", "Injectables", "Skin", "Laser"];
+const CATEGORIES = ["Tüm Hizmetler", "Enjeksiyonlar", "Cilt", "Lazer"];
 
-export default function OurTreatments({ treatments, onSelect }) {
+export default function OurTreatments({ treatments, onSelect, onBookConsultation }) {
   const [activeCategory, setActiveCategory] = useState("All Services");
 
   const filtered =
-    activeCategory === "All Services"
+    activeCategory === "Tüm Hizmetler"
       ? treatments
       : treatments.filter((t) => t.category === activeCategory);
 
@@ -64,13 +64,13 @@ export default function OurTreatments({ treatments, onSelect }) {
         {/* ── Section Header ── */}
         <div style={{ textAlign: "center", marginBottom: 56 }}>
           <span style={{ fontSize:11, fontWeight:700, letterSpacing:".12em", color:"#8b6914", textTransform:"uppercase" }}>
-            Bespoke Excellence
+            Özel Mükemmellik
           </span>
           <h2 className="serif" style={{ fontSize:"clamp(2.4rem,5vw,3.5rem)", fontWeight:400, color:"#1c190d", margin:"10px 0 14px", lineHeight:1.1 }}>
-            Our Treatments
+            Hizmetlerimiz
           </h2>
           <p style={{ fontSize:"1.05rem", color:"#8a8070", maxWidth:520, margin:"0 auto", lineHeight:1.75 }}>
-            Evidence-based medical aesthetics, designed to enhance your natural beauty with lasting precision.
+            Kanıta dayalı tıbbi estetik; doğal güzelliğinizi kalıcı hassasiyetle güçlendirmek için tasarlandı.
           </p>
         </div>
 
@@ -115,7 +115,7 @@ export default function OurTreatments({ treatments, onSelect }) {
                   {t.summary}
                 </p>
                 <div style={{ display:"flex", alignItems:"center", gap:6, color:"#8b6914", fontWeight:700, fontSize:13 }}>
-                  Learn More
+                  Daha Fazla
                   <svg className="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M5 12h14M12 5l7 7-7 7"/>
                   </svg>
@@ -128,12 +128,12 @@ export default function OurTreatments({ treatments, onSelect }) {
         {/* ── Bottom CTA ── */}
         <div style={{ marginTop:72, background:"linear-gradient(135deg,#faf6e8 0%,#f5ecd0 100%)", border:"1.5px solid rgba(201,162,39,.4)", borderRadius:24, padding:"52px 40px", textAlign:"center" }}>
           <h4 style={{ fontSize:"1.6rem", fontWeight:700, color:"#1c190d", marginBottom:10 }}>
-            Not sure where to start?
+            Nereden başlayacağınızdan emin değil misiniz?
           </h4>
           <p style={{ color:"#8a8070", marginBottom:28, fontSize:15 }}>
-            Book a comprehensive skin consultation with our lead clinicians and create your personalised journey.
+            Baş klinisyenlerimizle kapsamlı bir cilt konsültasyonu alın; size özel yolculuğunuzu planlayın.
           </p>
-          <button className="cta-btn">Start Your Consultation</button>
+          <button type="button" className="cta-btn" onClick={onBookConsultation}>Konsültasyona Başlayın</button>
         </div>
 
       </div>

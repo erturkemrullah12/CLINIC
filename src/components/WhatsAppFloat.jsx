@@ -6,7 +6,7 @@ function WhatsAppFloat() {
       href="https://wa.me/442079460012"
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-[9999] size-14 rounded-full bg-[#25D366] flex items-center justify-center text-white hover:bg-[#20BA5A] transition-all hover:scale-110 shadow-lg hover:shadow-xl"
+      className="fixed bottom-6 right-6 z-[9999] size-14 rounded-full bg-[#00B8A9] flex items-center justify-center text-white hover:bg-[#00CCCC] transition-all hover:scale-110 shadow-lg hover:shadow-xl hidden md:flex"
       title="WhatsApp ile iletişime geç"
       aria-label="WhatsApp ile iletişime geç"
     >

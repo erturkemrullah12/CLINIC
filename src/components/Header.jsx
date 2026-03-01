@@ -18,14 +18,14 @@ function Header({ onNavigateToTreatments, onNavigateToHome, onNavigateToHakkimiz
             onClick={onNavigateToTreatments}
             className="text-[#1c190d] text-sm font-semibold hover:text-gold-accent transition-colors uppercase tracking-wider bg-transparent border-none cursor-pointer"
           >
-            Treatments
+            Hizmetler
           </button>
           {onNavigateToHakkimizda && (
             <button 
               onClick={onNavigateToHakkimizda}
               className={`text-sm font-semibold transition-colors uppercase tracking-wider bg-transparent border-none cursor-pointer ${activeNav === "philosophy" ? "text-primary" : "text-[#1c190d] hover:text-gold-accent"}`}
             >
-              Our Story
+              Hikayemiz
             </button>
           )}
           <button 
@@ -39,7 +39,7 @@ function Header({ onNavigateToTreatments, onNavigateToHome, onNavigateToHakkimiz
             }}
             className="text-[#1c190d] text-sm font-semibold hover:text-gold-accent transition-colors uppercase tracking-wider bg-transparent border-none cursor-pointer"
           >
-            Results
+            Sonuçlar
           </button>
           <button 
             onClick={() => {
@@ -52,7 +52,7 @@ function Header({ onNavigateToTreatments, onNavigateToHome, onNavigateToHakkimiz
             }}
             className="text-[#1c190d] text-sm font-semibold hover:text-gold-accent transition-colors uppercase tracking-wider bg-transparent border-none cursor-pointer"
           >
-            About
+            Hakkımızda
           </button>
           <button 
             onClick={() => {
@@ -65,7 +65,7 @@ function Header({ onNavigateToTreatments, onNavigateToHome, onNavigateToHakkimiz
             }}
             className="text-[#1c190d] text-sm font-semibold hover:text-gold-accent transition-colors uppercase tracking-wider bg-transparent border-none cursor-pointer"
           >
-            Reviews
+            Yorumlar
           </button>
         </nav>
         <div className="flex items-center gap-4">
@@ -84,7 +84,7 @@ function Header({ onNavigateToTreatments, onNavigateToHome, onNavigateToHakkimiz
             onClick={onNavigateToBooking}
             className="flex min-w-[120px] cursor-pointer items-center justify-center rounded-xl h-11 px-6 bg-primary text-[#1c190d] text-sm font-bold tracking-wide shadow-md hover:bg-opacity-90 transition-all active:scale-95"
           >
-            Book Now
+            Randevu Al
           </button>
         </div>
       </div>
